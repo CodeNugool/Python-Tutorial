@@ -21,6 +21,9 @@ dy = [0, 1, 0, -1]
 # 함수정의 def 함수이름(매개변수1, 매개변수2): 수행할 작업
 
 def turn_left():
+
+  # global = 전역변수 지정, 실행하는 파이썬 파일 전체 영역에서 사용가능한 변수
+  # Local = 지역변수, 특정 범위에서만 사용가능한 변수 ex) 특정 함수 내에서 선언한 변수는 함수 밖에서 사용 될 수 없다.
   global direction
   direction -= 1
   if direction == -1:
