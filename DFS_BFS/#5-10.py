@@ -6,7 +6,7 @@ n, m = map(int, input().split())
 # 2차원 리스트 맵 정보 입력
 graph = []
 for i in range(n):
-  graph.append(list(map(int, input())))
+  graph.append(list(map(int, input()))) # 공백으로 구분되지 않고 입력받음 주의!!
 # graph = [list(map(int, input().split())) for _ in range(n)] 도 가능할 듯
 
 # DFS로 특정한 노드 및 연결된 노드 방문
